@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <Navbar>
       </Navbar>
-      <Fullpagecomponents>
-      </Fullpagecomponents>
+      {/* <Fullpagecomponents>
+      </Fullpagecomponents> */}
     </div>
   );
 }
