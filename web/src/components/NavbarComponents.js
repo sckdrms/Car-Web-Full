@@ -3,7 +3,7 @@ import { Link, BrowserRouter, Routes, Route } from 'react-router-dom';
 import P404 from './404Components'
 import ReactFullpage from './FullpageComponent'
 import '../css/navbar.css';
-import logo from '../img/logo-1280x720.png';
+import logo from '../img/identify/logo-1280x720.png';
 
 const Navbar = () => {
   return (

@@ -1,5 +1,8 @@
-// FullpageComponents.jsx
+// FullpageComponents.js
 import ReactFullpage from "@fullpage/react-fullpage";
+import { useState } from 'react';
+
+import Teampics from './TeampicComponents.js'
 
 import '../css/fullpage.css';
 
@@ -7,6 +10,16 @@ function Fullpagecomponents(){
 
   const onLeave = (origin, destination, direction) => {
     console.log("onLeave", { origin, destination, direction });
+  };
+
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseOver = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseOut = () => {
+    setIsHovering(false);
   };
 
   return(
@@ -105,7 +118,9 @@ function Fullpagecomponents(){
             </div>
           </div>
           <div className="section" id="page3-1">
-            <p>3 page</p>
+
+<Teampics></Teampics>
+
           </div>
           <div className="section" id="page4-1">
             <p>4 page</p>
