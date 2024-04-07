@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../css/Teampic.css'; // CSS 파일의 경로를 확인하고 필요에 따라 조정하세요
+import '../css/Teampic.css'; // 경로는 프로젝트 설정에 맞게 조정해 주세요.
 
-function TeamPics() {
+function TeamPics({ isVisible }) {
   const [cards, setCards] = useState([
     { id: 1, name: '정진우', job: '팀장', isHovered: false, className: 'teampic1', hoverName: '개발 총괄 및 테스팅', hoverJob: '' },
     { id: 2, name: '김강우', job: '간사', isHovered: false, className: 'teampic2', hoverName: '서버개발 및 문서작업', hoverJob: '' },
@@ -22,7 +22,7 @@ function TeamPics() {
   };
 
   return (
-    <div className="grid-introduce">
+    <div className={`grid-introduce ${isVisible ? 'noneup' : ''}`}>
       {cards.map((card) => (
         <div 
           key={card.id}
