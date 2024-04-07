@@ -78,15 +78,17 @@
 
 /* card */
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .fp-next{
-    right: 15px;
-    scale: 0.5;
-    top: 70vh;
+    display: none;
+
   }
   .fp-prev{
-    left: 15px;
-    scale: 0.5;
-    top: 70vh;
+    display: none;
   }
+} */
+
+.arrow-left, .arrow-right {
+  display: none;
 }
+
