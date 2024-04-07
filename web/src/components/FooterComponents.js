@@ -130,7 +130,7 @@ function Footer(){
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
-              <p className="text-2xl text-gray-900 dark:text-white">Services</p>
+              <p className="text-2xl mt-6 text-gray-900 dark:text-white">Services</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
@@ -166,7 +166,7 @@ function Footer(){
             </div>
 
             <div>
-              <p className="text-2xl text-gray-900 dark:text-white">Company</p>
+              <p className="text-2xl mt-6 text-gray-900 dark:text-white">Company</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
