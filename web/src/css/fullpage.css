@@ -39,7 +39,8 @@
 }
 
 #page4-1{
-  background-image: url("../img/background/back2.3.png");
+  /* background-image: url("../img/background/back2.3.png"); */
+  background-color: black;
   text-align: center;
 }
 
@@ -76,4 +77,3 @@
 } */
 
 /* card */
-
